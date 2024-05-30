@@ -1,0 +1,115 @@
+@media (max-width: 740px) {
+  * {
+    font-size: 15px;
+  }
+  .col-half {
+    width: 100%;
+  }
+  .nav > ul {
+    display: block;
+  }
+  .nav ul li {
+    width: 100%;
+  }
+  header .nav ul li a {
+    display: block;
+  }
+  header .nav ul li:first-child {
+    width: fit-content;
+  }
+  header .nav ul li a {
+    display: inline-block;
+  }
+  .nav ul > li:first-child:hover {
+    background-color: #000;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  header .nav ul > li {
+    display: block;
+  }
+  header .nav {
+    overflow: hidden;
+  }
+
+  .nav--search {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile-menu .fa-bars {
+    display: block !important;
+    line-height: 50px;
+    font-size: 20px;
+  }
+  .nav li:nth-child(5):hover subnav {
+    display: block;
+  }
+  .subnav li {
+    width: 100%;
+  }
+  .nav li:first-child:active,
+  .mobile-menu:active {
+    color: black;
+    background-color: #ccc !important;
+  }
+  .content .member-list {
+    margin-top: 48px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: none;
+    text-align: center;
+  }
+  .tourdate--container {
+    width: 100%;
+  }
+  .container2,
+  .contact--container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .tour--place {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: none;
+    gap: 16px;
+    padding: 32px 0;
+  }
+  header .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  .subnav li a {
+    color: #fff;
+  }
+  .subnav li a {
+    padding: 0 40px !important ;
+  }
+  .contact--left {
+    width: 100%;
+    float: none;
+  }
+  .mail-input {
+    padding: 0;
+  }
+  .contact--left {
+    margin-bottom: 12px;
+  }
+  .contact--left ul li {
+    font-size: 18px;
+  }
+  .contact--container {
+    display: flow-root;
+  }
+  .footer-container {
+    margin: 0;
+  }
+  .icon-wrapper {
+    margin-top: 0;
+  }
+}
